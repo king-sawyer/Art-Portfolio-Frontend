@@ -1,0 +1,25 @@
+.headerUl {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  padding-left: 0;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+}
+
+.headerLi {
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+.Header :hover {
+  color: darkgray;
+}
+.headerUl :hover {
+  color: black;
+}
+
+.Header {
+  padding: 10%;
+}
