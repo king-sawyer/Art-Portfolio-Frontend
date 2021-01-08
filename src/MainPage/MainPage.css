@@ -1,0 +1,34 @@
+.MainPage {
+  text-align: center;
+  padding: 0 10%;
+}
+
+.mainPageUl {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding-bottom: 5%;
+  padding-left: 0;
+}
+
+.mainPageLi {
+  flex: 1 1 auto;
+  padding: 20px;
+}
+
+.mainProducts {
+  padding-left: 0;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  overflow: hidden;
+}
+.mainProductLi {
+  flex: 1 1 auto;
+
+  padding: 20px;
+}
+
+.productImage {
+  overflow: hidden;
+}
