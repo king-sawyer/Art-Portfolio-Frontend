@@ -7,3 +7,9 @@ img {
 .App {
   font-family: Quicksand;
 }
+
+.iconApp {
+  position: fixed;
+  right: 10px;
+  top: 60px;
+}

@@ -12,6 +12,13 @@
   flex: 1 1 auto;
   text-align: center;
 }
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+a:link {
+  text-decoration: none;
+}
 
 .Header :hover {
   color: darkgray;
@@ -21,5 +28,8 @@
 }
 
 .Header {
-  padding: 5% 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 3%;
 }

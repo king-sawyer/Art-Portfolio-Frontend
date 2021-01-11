@@ -32,3 +32,23 @@
 .productImage {
   overflow: hidden;
 }
+
+.instaIconMain {
+  padding: 30px;
+  color: black;
+}
+.adminButton {
+  padding-right: 5px;
+  margin-top: 0;
+}
+a:link {
+  color: black;
+}
+.adminButton :visited {
+  color: black;
+}
+@media all and (max-width: 800px) {
+  .mainProducts {
+    flex-direction: column;
+  }
+}

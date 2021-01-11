@@ -1,6 +1,10 @@
 import "./MainPage.css";
 
-function MainPage() {
+import { AiOutlineInstagram } from "react-icons/ai";
+import { IconContext } from "react-icons/lib";
+import { Link } from "react-router-dom";
+
+function MainPage(props) {
   return (
     <div className="MainPage">
       <ul className="mainPageUl">
@@ -21,48 +25,27 @@ function MainPage() {
 
       <div className="mainProductsDiv">
         <ul className="mainProducts">
-          <li className="mainProductLi">
-            <img
-              className="productImage"
-              src="/Images/GoblinShirtFront.png"
-              alt="firstProduct"
-            />
-            <p>
-              <b>Goblins and Ghouls:</b>
-            </p>
-            <p>
-              <b>25$</b>
-            </p>
-          </li>
-          <li className="mainProductLi">
-            {" "}
-            <img
-              className="productImage"
-              src="/Images/HoodieMockUp1.png"
-              alt="mockHoodie"
-            />
-            <p>
-              <b>Shough Rootin:</b>
-            </p>
-            <p>
-              <b>35$</b>
-            </p>
-          </li>
-          <li className="mainProductLi">
-            {" "}
-            <img
-              className="productImage"
-              src="/Images/GatorshirtBack.png"
-              alt="imgRight"
-            />
-            <p>
-              <b>Gator:</b>
-            </p>
-            <p>
-              <b>25$</b>
-            </p>
-          </li>
+          {props.featuredProducts.map((product) => {
+            return (
+              <li>
+                <img src={product.product_image} alt={product.product_title} />
+                <p>{product.product_title}</p>
+              </li>
+            );
+          })}
         </ul>
+        <hr />
+        <a href="https://www.instagram.com/brandanowitzz/">
+          <IconContext.Provider value={{ size: "70px" }}>
+            <AiOutlineInstagram className="instaIconMain" />
+          </IconContext.Provider>
+        </a>
+        <Link to="/admin">
+          <u>
+            {" "}
+            <p className="adminButton">Admin</p>
+          </u>
+        </Link>
       </div>
     </div>
   );

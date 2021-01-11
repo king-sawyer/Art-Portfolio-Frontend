@@ -1,0 +1,28 @@
+img {
+  width: 100%;
+}
+
+.artPageUl {
+  display: flex;
+  list-style-type: none;
+  flex-direction: row;
+  flex-wrap: WRAP;
+  padding-left: 0;
+  margin: 30px 10%;
+}
+.artPageLi {
+  max-width: 350px;
+  max-height: 350px;
+  overflow: hidden;
+  flex: 1 1 auto;
+  padding-left: 0;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h2 {
+  font-size: 2vw;
+  margin: 0;
+  padding-left: 10%;
+}

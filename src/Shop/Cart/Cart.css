@@ -1,0 +1,30 @@
+.cartUl {
+  display: flex;
+  list-style-type: none;
+  flex-direction: column;
+  margin-top: 0;
+  padding: 0 10%;
+}
+
+.liContainer {
+  flex: 1 1 auto;
+}
+.rowContainer {
+  display: flex;
+  flex-direction: row;
+  background-color: whitesmoke;
+  padding: 30px;
+}
+
+.cartLiText {
+  flex: 1;
+  padding-left: 5%;
+}
+.cartLiImg {
+  flex: 1;
+  max-width: 150px;
+}
+
+.priceIsRight {
+  padding: 5% 10%;
+}

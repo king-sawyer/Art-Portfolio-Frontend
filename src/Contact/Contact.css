@@ -1,0 +1,24 @@
+.contactPage {
+  margin: 0 10%;
+  padding: 1% 10%;
+  display: flex;
+  background-color: whitesmoke;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.formItem {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+}
+textarea {
+  vertical-align: top;
+}
+.instaIcon {
+  padding-left: 47%;
+}
+
+.hrContact {
+  margin: 3% 10%;
+}

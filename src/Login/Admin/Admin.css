@@ -1,0 +1,21 @@
+.productToModify {
+  display: flex;
+  flex-direction: column;
+}
+
+.formItem {
+  flex: 1;
+  padding: 5px 0;
+}
+
+.admin {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  background-color: white;
+  padding: 10px;
+}
+
+.dropDown:hover {
+  cursor: pointer;
+}
