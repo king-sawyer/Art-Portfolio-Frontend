@@ -1,8 +1,10 @@
-# Getting Started with Create React App
+# Art Portfolio Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the client side code for a fullstack application created for a local artist to sell and publish their art.
+The artist intends to create and add real products at a later point. In the meantime mock products and test payment systems have been put in place intended to make the transition easy when the artist is ready. 
+![Artist site](https://i.imgur.com/QyceGTQ.png)
 
-## Available Scripts
+## Technologies
 
 In the project directory, you can run:
 
